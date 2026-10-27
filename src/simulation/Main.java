@@ -56,7 +56,7 @@ public class Main {
 
         Simulation simulation = new Simulation(map, new ConsoleRenderer(), initActions, turnActions, TURN_DELAY_MILLIS);
 
-        System.out.println("Enter - пауза/продолжить, q + Enter - выход");
+        System.out.println("Enter - пауза/продолжить, q + Enter1111 - выход");
         simulation.initialize();
         simulation.startSimulation();
 
